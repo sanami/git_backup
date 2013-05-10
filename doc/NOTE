@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------- tasks
+git --git-dir=./tmp/test_project.git --work-tree=./tmp/test_project status
+git --git-dir=./tmp/test_project.git --work-tree=./tmp/test_project log
+
+sudo ./app.thor watch vostok /home/sa/projects/vostok/public/css 60
+git --git-dir=./repos/vostok.git --work-tree=/home/sa/projects/vostok/public/css log
+
+
+----------------------------------------------------------------------------- TODO
+Watch folder
+
+Backup to git repo
